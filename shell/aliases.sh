@@ -3,8 +3,8 @@ alias sudo='sudo '
 
 alias ..="cd .."
 alias ...="cd ../.."
-alias ll="ls -l"
-alias la="ls -la"
+alias ll="exa -l"
+alias la="exa -la"
 alias ~="cd ~"
 alias dotfiles='cd $DOTFILES_PATH'
 
@@ -28,3 +28,6 @@ alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias o.='open .'
 alias up='dot package update_all'
+
+# Programs
+alias python='python3'
