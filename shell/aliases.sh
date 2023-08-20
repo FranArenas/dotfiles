@@ -29,7 +29,7 @@ alias c.='(code $PWD &>/dev/null &)'
 alias o.='open .'
 alias up='dot package update_all'
 alias clr='clear'
-alias tmp='cd tmp'
+alias tmp='cd /tmp'
 
 # Programs
 alias python='python3'
